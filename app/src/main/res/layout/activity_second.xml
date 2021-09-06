@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.zoomimageslider.zoom.ZoomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/fl_zoom"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@drawable/ic_launcher_background"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <androidx.recyclerview.widget.RecyclerView-->
+    <!--            android:id="@+id/rv_images_second"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="400dp"-->
+    <!--            android:layout_margin="30dp"-->
+    <!--            android:scrollbars="vertical" />-->
+
+
+    <!--    </LinearLayout>-->
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/fl_zoom"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/doll"-->
+<!--                android:id="@+id/img"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I'm using PhotoView library from here.
+                It is not giving any error but I'm not able to zoom images.
+                Nothing happens on trying to zoom image.
+                I am not getting any errors from build.gradle too. How do I fix that?"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+</com.example.zoomimageslider.zoom.ZoomLayout>
+
+
+
+
+

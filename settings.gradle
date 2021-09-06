@@ -1,0 +1,3 @@
+include ':android-zoom-view'
+include ':app'
+rootProject.name = "ZoomImageSlider"
